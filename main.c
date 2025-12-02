@@ -4,6 +4,7 @@
 아너코드 선언: 나 OOO는 하나님과 사람 앞에서 정직하고 성실하게 코딩 테스트를 수행하겠습니다.
 */
 
+
 #include <stdio.h>
 #include <stdlib.h> // for malloc()
 #include <string.h> // for strlen(), strstr()
@@ -20,7 +21,7 @@ typedef struct st_quote{
     int word_count;
 } QUOTE;
 
-// 전역 변수: 구조체 포인터 배열 (동적 할당된 QUOTE 구조체를 가리킴)
+// 전역 변수: 구조체 포인터 배열 (동적 할당된 QUOTE 구조체를 가리킴)  
 QUOTE* quote_list[MAX_QUOTES]; 
 int quote_count = 0;
 
